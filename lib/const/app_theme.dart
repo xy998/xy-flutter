@@ -62,6 +62,7 @@ class AppTheme {
       // 输入框光标
       textSelectionTheme: TextSelectionThemeData(
         cursorColor: AppColors.primary,
+        // flutter SDK 需要大于 3.27.1 才支持 withValues
         selectionColor: AppColors.primary.withValues(alpha: .2),
         selectionHandleColor: AppColors.primary,
       ),

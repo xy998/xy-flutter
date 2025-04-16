@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
       bottomNavigationBar: Obx(() {
         return BottomNavigationBar(
           currentIndex: HomeController.currentTab.value,
-          selectedFontSize: AppSizes.fontSmall13,
+          selectedFontSize: AppSizes.fontSmall,
           unselectedFontSize: AppSizes.fontSmall,
           onTap: (index) {
             HomeController.switchTab(index);

@@ -11,8 +11,6 @@ class StorageManager {
 
   /// 保存数据
   static Future<bool> setData<T>(String key, T value) async {
-    if (prefs == null) await init();
-
     if (value is String) {
       return await prefs.setString(key, value);
     } else if (value is int) {
@@ -69,13 +67,11 @@ class StorageManager {
 
   /// 删除指定key的数据
   static Future<bool> remove(String key) async {
-    if (prefs == null) await init();
     return await prefs.remove(key);
   }
 
   /// 清空所有数据
   static Future<bool> clear() async {
-    if (prefs == null) await init();
     return await prefs.clear();
   }
 
