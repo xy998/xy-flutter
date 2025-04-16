@@ -1,40 +1,16 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:shifu/const/app_const.dart';
-import 'package:shifu/routes/app_pages.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class App {
+  static final App _instance = App.singleton();
 
-  @override
-  Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: AppConst.siteName,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      // home: const Scaffold(
-      //   body: Center(
-      //     child: Text('GetMaterialApp'),
-      //   ),
-      // ),
+  App.singleton();
 
-      // 路由配置
-      initialRoute: AppPages.INITIAL,
-      getPages: AppPages.routes,
+  static App get instance {
+    return _instance;
+  }
 
-      // 默认转场动画
-      defaultTransition: Transition.cupertino,
-
-      // 错误页面
-      unknownRoute: GetPage(
-        name: '/notfound',
-        page: () => const Scaffold(
-          body: Center(
-            child: Text('页面不存在'),
-          ),
-        ),
-      ),
-    );
+  /// 初始化App
+  Future<void> initial() async {
+    await ScreenUtil.ensureScreenSize();
   }
 }
