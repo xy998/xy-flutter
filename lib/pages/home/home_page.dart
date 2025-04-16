@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lazy_load_indexed_stack/lazy_load_indexed_stack.dart';
+import 'package:shifu/const/app_sizes.dart';
 import 'package:shifu/pages/home/home_controller.dart';
 import 'package:shifu/pages/order/order_page.dart';
 import 'package:shifu/pages/profile/profile_page.dart';
@@ -23,6 +24,8 @@ class HomePage extends StatelessWidget {
       bottomNavigationBar: Obx(() {
         return BottomNavigationBar(
           currentIndex: HomeController.currentTab.value,
+          selectedFontSize: AppSizes.fontSmall13,
+          unselectedFontSize: AppSizes.fontSmall,
           onTap: (index) {
             HomeController.switchTab(index);
           },

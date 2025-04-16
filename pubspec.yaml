@@ -37,6 +37,9 @@ dependencies:
   get: ^4.7.2
   lazy_load_indexed_stack: ^1.2.1
   flutter_screenutil: ^5.9.3
+  shared_preferences: ^2.5.3
+  logger: ^2.5.0
+  get_storage: ^2.1.1
 
 dev_dependencies:
   flutter_test:
