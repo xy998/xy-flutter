@@ -1,0 +1,114 @@
+{
+  "id": "4896166",
+  "name": "xy-flutter",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "44038459",
+      "name": "安全认证",
+      "font_class": "anquanrenzheng",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "44038460",
+      "name": "达人认证",
+      "font_class": "darenrenzheng",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "44038461",
+      "name": "大V认证",
+      "font_class": "daVrenzheng",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "44038462",
+      "name": "管理认证",
+      "font_class": "guanlirenzheng",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "44038463",
+      "name": "官方认证",
+      "font_class": "guanfangrenzheng",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "44038464",
+      "name": "房屋认证",
+      "font_class": "fangwurenzheng",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    },
+    {
+      "icon_id": "44038466",
+      "name": "蓝V认证",
+      "font_class": "lanVrenzheng",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "44038468",
+      "name": "商标认证",
+      "font_class": "shangbiaorenzheng",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    },
+    {
+      "icon_id": "44038469",
+      "name": "平台认证",
+      "font_class": "pingtairenzheng",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "44038470",
+      "name": "身份证认证",
+      "font_class": "shenfenzhengrenzheng",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "44038471",
+      "name": "视频认证",
+      "font_class": "shipinrenzheng",
+      "unicode": "e704",
+      "unicode_decimal": 59140
+    },
+    {
+      "icon_id": "44038472",
+      "name": "汽车认证",
+      "font_class": "qicherenzheng",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "44038474",
+      "name": "扫描认证",
+      "font_class": "saomiaorenzheng",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "44038476",
+      "name": "兴趣认证",
+      "font_class": "xingqurenzheng",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "44038477",
+      "name": "银行卡认证",
+      "font_class": "yinhangkarenzheng",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    }
+  ]
+}
